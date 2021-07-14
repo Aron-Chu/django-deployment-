@@ -1,0 +1,18 @@
+d92f72c38f7e /bin/sh -c #(nop)  CMD ["python3"] 0B
+<missing> /bin/sh -c set -ex;   wget -O get-pip.py "$P… 8.31MB
+<missing> /bin/sh -c #(nop)  ENV PYTHON_GET_PIP_SHA256… 0B
+<missing> /bin/sh -c #(nop)  ENV PYTHON_GET_PIP_URL=ht… 0B
+<missing> /bin/sh -c #(nop)  ENV PYTHON_PIP_VERSION=21… 0B
+<missing> /bin/sh -c cd /usr/local/bin  && ln -s idle3… 32B
+<missing> /bin/sh -c set -ex   && wget -O python.tar.x… 55.8MB
+<missing> /bin/sh -c #(nop)  ENV PYTHON_VERSION=3.9.6 0B
+<missing> /bin/sh -c #(nop)  ENV GPG_KEY=E3FF2839C048B… 0B
+<missing> /bin/sh -c apt-get update && apt-get install… 18MB
+<missing> /bin/sh -c #(nop)  ENV LANG=C.UTF-8 0B
+<missing> /bin/sh -c #(nop)  ENV PATH=/usr/local/bin:/… 0B
+<missing> /bin/sh -c set -ex;  apt-get update;  apt-ge… 510MB
+<missing> /bin/sh -c apt-get update && apt-get install… 146MB
+<missing> /bin/sh -c set -ex;  if ! command -v gpg > /… 17.5MB
+<missing> /bin/sh -c set -eux;  apt-get update;  apt-g… 16.5MB
+<missing> /bin/sh -c #(nop)  CMD ["bash"] 0B
+<missing> /bin/sh -c #(nop) ADD file:a232795a746e5842d… 114MB

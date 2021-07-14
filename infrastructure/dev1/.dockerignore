@@ -1,0 +1,3 @@
+app/dev/
+app/app.py.test
+**/*.sh
