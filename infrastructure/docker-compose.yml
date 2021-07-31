@@ -9,25 +9,5 @@ services:
       - type: volume
         source: dev1-vol
         target: /app
-  nodered: 
-    container_name: nodered
-    build: ./nodered/
-    ports:
-      - "1880:1880"
-    volumes:
-      - type: volume
-        source: nodered-vol
-        target: /data
-  influxdb:
-    container_name: influxdb
-    image: influxdb
-    ports:
-      - "8086:8086"
-    volumes:
-      - type: volume
-        source: influxdb-vol
-        target: /var/lib/influxdb2
 volumes:
   dev1-vol: {}
-  nodered-vol: {}
-  influxdb-vol: {}
